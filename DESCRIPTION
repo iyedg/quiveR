@@ -1,0 +1,11 @@
+Package: quiveR
+Title: A set of tools for interacting with KoBo and anlyzing datasets from it
+Version: 0.0.0.9000
+Authors@R:
+    person("Iyed", "Ghedamsi", , "conact@iyedg.me", role = c("aut", "cre"),
+           comment = c())
+Description: A set of tools for interacting with KoBo and anlyzing datasets from it.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
