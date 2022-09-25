@@ -3,9 +3,9 @@
 repos:
 -   repo: https://github.com/lorenzwalthert/precommit
     rev: v0.3.2.9001
-    hooks: 
+    hooks:
     -   id: style-files
-        args: [--style_pkg=styler, --style_fun=tidyverse_style]    
+        args: [--style_pkg=styler, --style_fun=tidyverse_style]
     -   id: spell-check
         exclude: >
           (?x)^(
@@ -37,13 +37,16 @@ repos:
           data/.*|
           )$
     -   id: lintr
+        args: [--warn_only]
+        verbose: true
     -   id: readme-rmd-rendered
     -   id: parsable-R
     -   id: no-browser-statement
     -   id: no-debug-statement
+    -   id: use-tidy-description
 -   repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.3.0
-    hooks: 
+    hooks:
     -   id: check-added-large-files
         args: ['--maxkb=200']
     -   id: end-of-file-fixer

@@ -1,7 +1,6 @@
-anlyzing
 aut
 Centre
-conact
+Config
 cre
 dplyr
 Ghedamsi
@@ -16,7 +15,11 @@ MSNA
 NONINFRINGEMENT
 quiveR
 readxl
+rlang
 Roxygen
 RoxygenNote
 sectoral
+stringr
+styler
 sublicense
+testthat

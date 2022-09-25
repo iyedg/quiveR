@@ -1,10 +1,10 @@
 Package: quiveR
-Title: A set of tools for interacting with KoBo and anlyzing datasets from it
+Title: A set of tools for interacting with KoBo and analyzing datasets from it
 Version: 0.0.0.9000
 Authors@R:
     person("Iyed", "Ghedamsi", , "contact@iyedg.me", role = c("aut", "cre"),
            comment = c())
-Description: A set of tools for interacting with KoBo and anlyzing datasets from it.
+Description: A set of tools for interacting with KoBo and analyzing datasets from it.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
@@ -14,7 +14,13 @@ Imports:
     here,
     httr,
     magrittr,
-    readxl
+    readxl,
+    rlang,
+    stringr,
+    styler
 Depends:
     R (>= 2.10)
 LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
