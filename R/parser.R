@@ -1,4 +1,20 @@
-kobo_parse_relevant <- function(statement, as_string = FALSE) {
+#' Parse a KoBo expression into R.
+#'
+#' @param statement a string representing a KoBo expression
+#' @param as_string whether to transform the result of parsing into an expression
+#'
+#' @return an R expression or its string representation
+#' @export
+#'
+#' @examples
+#' kobo_parse_expression("${hoh}")
+#' kobo_parse_expression("${hoh}", as_string = TRUE)
+#' kobo_parse_expression("selected(${hoh}, 'no')")
+#' kobo_parse_expression("selected(${hoh}, 'no')", as_string = TRUE)
+#' lby_msna %>%
+#'  dplyr::filter(!!kobo_parse_expression("selected(${hoh}, 'no')")) %>%
+#'  dplyr::distinct(hoh)
+kobo_parse_expression <- function(statement, as_string = FALSE) {
   variable_name_regex <- r"(\$\{([a-zA-Z_0-9]+)\})"
   and_regex <- r"((?<=[\s*|\}])and(?=[\s*|\$]))"
   or_regex <- r"((?<=[\s*|\}])or(?=[\s*|\$]))"
