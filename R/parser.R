@@ -1,6 +1,3 @@
-#' @importFrom magrittr %>%
-NULL
-
 kobo_parse_relevant <- function(statement, as_string = FALSE) {
   variable_name_regex <- r"(\$\{([a-zA-Z_0-9]+)\})"
   and_regex <- r"((?<=[\s*|\}])and(?=[\s*|\$]))"
