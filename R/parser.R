@@ -12,8 +12,8 @@
 #' kobo_parse_expression("selected(${hoh}, 'no')")
 #' kobo_parse_expression("selected(${hoh}, 'no')", as_string = TRUE)
 #' lby_msna %>%
-#'  dplyr::filter(!!kobo_parse_expression("selected(${hoh}, 'no')")) %>%
-#'  dplyr::distinct(hoh)
+#'   dplyr::filter(!!kobo_parse_expression("selected(${hoh}, 'no')")) %>%
+#'   dplyr::distinct(hoh)
 kobo_parse_expression <- function(statement, as_string = FALSE) {
   variable_name_regex <- r"(\$\{([a-zA-Z_0-9]+)\})"
   and_regex <- r"((?<=[\s*|\}])and(?=[\s*|\$]))"
