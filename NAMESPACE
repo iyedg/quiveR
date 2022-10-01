@@ -2,6 +2,7 @@
 
 export("%>%")
 export(generate_changelog)
+export(get_question_columns)
 export(kobo_parse_expression)
 importFrom(magrittr,"%>%")
 importFrom(rlang,.data)

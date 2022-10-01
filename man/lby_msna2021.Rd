@@ -5,7 +5,7 @@
 \alias{lby_msna2021}
 \title{REACH Libya MSNA 2021 Dataset (Refugee and Migrant Population)}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1554 rows and 694 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 1554 rows and 690 columns.
 }
 \source{
 \href{https://www.reachresourcecentre.info/}{REACH Resource Centre}
