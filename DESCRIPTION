@@ -24,6 +24,8 @@ Depends:
 LazyData: true
 Suggests: 
     assertthat,
+    janitor,
     testthat (>= 3.0.0),
-    tibble
+    tibble,
+    usethis
 Config/testthat/edition: 3

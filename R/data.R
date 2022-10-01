@@ -9,18 +9,10 @@
 #'
 #' @docType data
 #'
-#' @usage data(lby_msna)
-#'
-#' @format An object of class \code{"cross"}; see \code{\link[qtl]{read.cross}}.
-#'
 #' @keywords datasets
 #'
-#' @references REACH. (2021, August). REACH Libya MSNA 2021 Dataset
-#' (Refugee and Migrant Population) [Dataset].
-#' (\href{https://www.impact-repository.org/document/reach/d12e44b6/REACH_LBY_Dataset_2105b_August-2021.xlsx})
-#'
 #' @source \href{https://www.reachresourcecentre.info/}{REACH Resource Centre}
-"lby_msna"
+"lby_msna2021"
 
 #' REACH Libya MSNA 2021 Survey (Refugee and Migrant Population)
 #'
@@ -33,18 +25,10 @@
 #'
 #' @docType data
 #'
-#' @usage data(lby_msna_survey)
-#'
-#' @format An object of class \code{"cross"}; see \code{\link[qtl]{read.cross}}.
-#'
 #' @keywords datasets
 #'
-#' @references REACH. (2021, August). REACH Libya MSNA 2021 Dataset
-#' (Refugee and Migrant Population) [Dataset].
-#' (\href{https://www.impact-repository.org/document/reach/d12e44b6/REACH_LBY_Dataset_2105b_August-2021.xlsx})
-#'
 #' @source \href{https://www.reachresourcecentre.info/}{REACH Resource Centre}
-"lby_msna_survey"
+"lby_msna2021_survey"
 
 
 #' REACH Libya MSNA 2021 Choices (Refugee and Migrant Population)
@@ -58,15 +42,7 @@
 #'
 #' @docType data
 #'
-#' @usage data(lby_msna_survey)
-#'
-#' @format An object of class \code{"cross"}; see \code{\link[qtl]{read.cross}}.
-#'
 #' @keywords datasets
 #'
-#' @references REACH. (2021, August). REACH Libya MSNA 2021 Dataset
-#' (Refugee and Migrant Population) [Dataset].
-#' (\href{https://www.impact-repository.org/document/reach/d12e44b6/REACH_LBY_Dataset_2105b_August-2021.xlsx})
-#'
 #' @source \href{https://www.reachresourcecentre.info/}{REACH Resource Centre}
-"lby_msna_choices"
+"lby_msna2021_choices"
