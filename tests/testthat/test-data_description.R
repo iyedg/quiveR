@@ -11,10 +11,8 @@ test_that("groups of questions identification works", {
     }) %>%
     as.vector()
 
-  expect_true(
-    identical(
-      output, expected_columns
-    )
+  expect_equal(
+    output, expected_columns
   )
 
   question_label <- "safety_concerns_boys"
@@ -29,10 +27,8 @@ test_that("groups of questions identification works", {
     }) %>%
     as.vector()
 
-  expect_true(
-    identical(
-      output, expected_columns
-    )
+  expect_equal(
+    output, expected_columns
   )
 
 
