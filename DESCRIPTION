@@ -17,10 +17,15 @@ Imports:
     readxl,
     rlang,
     stringr,
-    styler
+    styler,
+    tidyr
 Depends:
     R (>= 2.10)
 LazyData: true
 Suggests: 
-    testthat (>= 3.0.0)
+    assertthat,
+    janitor,
+    testthat (>= 3.0.0),
+    tibble,
+    usethis
 Config/testthat/edition: 3
