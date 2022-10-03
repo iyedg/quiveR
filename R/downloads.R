@@ -1,5 +1,4 @@
 #' Download survey responses as a dataset
-#'
 #' @param server_url URL of the KoBo Server
 #' @param type Filetype for the export
 #' @param lang Language of the labels used in the export. Can be 'xls'
@@ -12,6 +11,9 @@
 #' @param max_retries The number of retries when downloading
 #'
 #' @return NULL
+#' @export
+#'
+#' @examples
 kobo_download_dataset <- function(server_url = "https://kobo.humanitarianresponse.info",
                                   type = "xls",
                                   lang = "English",
