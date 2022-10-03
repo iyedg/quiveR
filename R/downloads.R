@@ -12,8 +12,6 @@
 #'
 #' @return NULL
 #' @export
-#'
-#' @examples
 kobo_download_dataset <- function(server_url = "https://kobo.humanitarianresponse.info",
                                   type = "xls",
                                   lang = "English",
