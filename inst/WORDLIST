@@ -1,5 +1,7 @@
+assertthat
 aut
 Centre
+changelog
 Config
 cre
 dplyr
@@ -23,3 +25,6 @@ stringr
 styler
 sublicense
 testthat
+tibble
+tidyr
+usethis
