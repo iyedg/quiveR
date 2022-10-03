@@ -31,7 +31,7 @@ generate_changelog <- function(.x, .y, id_cols,
   # TODO: ideally failure here would raise a warning.
   # For now this capability is not available through assertthat
   assertthat::assert_that(
-    nrow(.x) == nrow(.y), ncol(.x) == ncol(.y),
+    nrow(.x) == nrow(.y), ncol(.x) == ncol(.y)
   )
 
   long_x <- .x %>%
