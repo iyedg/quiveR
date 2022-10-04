@@ -3,6 +3,8 @@
 export("%>%")
 export(generate_changelog)
 export(get_question_columns)
+export(harmonized_municipality_names)
+export(harmonized_neighborhood_names)
 export(kobo_download_dataset)
 export(kobo_parse_expression)
 importFrom(magrittr,"%>%")
