@@ -2,9 +2,11 @@ assertthat
 aut
 Centre
 changelog
+cli
 Config
 cre
 dplyr
+Filetype
 Ghedamsi
 httr
 Iyed
@@ -28,3 +30,5 @@ testthat
 tibble
 tidyr
 usethis
+UUID
+xls
