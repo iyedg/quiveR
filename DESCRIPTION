@@ -1,6 +1,6 @@
 Package: quiveR
 Title: A set of tools for interacting with KoBo and analyzing datasets from it
-Version: 0.0.0.9002
+Version: 0.0.0.9003
 Authors@R:
     person("Iyed", "Ghedamsi", , "contact@iyedg.me", role = c("aut", "cre"),
            comment = c())
