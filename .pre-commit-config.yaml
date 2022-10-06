@@ -20,6 +20,7 @@ repos:
           .*\.Rds|
           .*\.Rproj|
           .*\.sh|
+          .*\.xlsx|
           (.*/|)\.gitignore|
           (.*/|)\.gitlab-ci\.yml|
           (.*/|)\.lintr|
