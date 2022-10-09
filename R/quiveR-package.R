@@ -1,9 +1,7 @@
 #' @keywords internal
 "_PACKAGE"
 
-#' @importFrom rlang .data
-NULL
-
 ## usethis namespace: start
+#' @importFrom rlang .data .env :=
 ## usethis namespace: end
 NULL
